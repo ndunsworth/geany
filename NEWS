@@ -144,15 +144,15 @@ Geany 1.25 (unreleased)
     * Add scintilla_get_type().
 
     Windows
+    * Use native Windows quoting rules for commands (on Windows, part of 
+      subprocess spawning improvements).
     * Prompt before overwriting existing files when using native Save As
       dialog (PR#113, Adam Coyne).
     * View -> Change Font now respects the native dialog setting.
     * Fix main window freeze when displaying native dialogs.
     * Use the same plugin directory as other platforms (PR#540, Thomas
       Martitz).
-    * Use native Windows quoting rules for commands (on Windows, part of 
-      subprocess spawning improvements).
-
+    
 
 Geany 1.24.1 (April 16, 2014)
 
